@@ -1,7 +1,7 @@
 dataset_type: "image"  # "image" or "tabular"
 dataset_name: "MNIST"  # or provide CSV path if tabular
 rbm_type: "CRBM"       # or "RBM"
-epochs: 30
+epochs: 5
 learning_rate: 0.01
 hidden_units: 256
 gibbs_steps: 1
